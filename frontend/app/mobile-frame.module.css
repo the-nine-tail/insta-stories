@@ -1,0 +1,21 @@
+.frameContainer {
+  position: relative;
+  width: 360px;
+  height: 740px;
+  background-image: url('./assets/images/google-pixel-8.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appContent {
+  position: absolute;
+  display: flex;
+  top: 18px;
+  left: 18px;
+  right: 22px;
+  bottom: 18px;
+  border-radius: 18px;
+  overflow-y: scroll;
+}
